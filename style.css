@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(30,30,30);
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #63b7af;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #63b7af;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  /*color: #58b4ae;*/
+  /*color: #000000;*/
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #007892;
+  font-size: 16px;
+  margin: 64px 0px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #58b4ae;
+}
+
+.top_margin {
+  margin: 32px;
+}
+
+.container {
+ margin: 16px auto;
+ width: 640px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  margin: 32px 0px;
+  padding: 16px 10px 32px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.avatar-big {
+  border-radius: 50%;
+  width: 128px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  /*font-size: 16px;*/
+  display: inline-block;
+  /*width: 64px;*/
+  padding: 10px;
+}
+
+.list-inline i {
+  color: #007892;
+  font-size: 32px;
+  line-height: 64px;
+}
+
+.list-inline i:hover {
+  color: #000000;
+}
+
+.list-clean {
+  font-weight: 600;
+  list-style: none;
+  padding: 0;
+}
+
